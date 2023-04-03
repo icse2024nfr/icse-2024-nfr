@@ -49,13 +49,13 @@ Aiming to investigate the developers' socio-technical profiles, we computed metr
 <p>To answer RQ2, we selected 15 developers, contributing with PRs, to manually perform an inspection on their profiles and evaluate their social metrics. Since the profiles of these developers were not available in a specific document on the repository, we created a protocol for this evaluation, in which four authors participated. </p>
 
 
-This protocol is available at [`/artifacts/Protocol to identify developers profile.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Protocol%20to%20identify%20developers%20profile.pdf) 
+This protocol is available at [`/artifacts/Protocol to identify developers profile.pdf`](https://github.com/icse2024nfr/icse-2024-nfr/blob/main/artifacts/Protocol%20to%20identify%20developers%20profile.pdf) 
 
 <hr>
 
 # Open Coding NFRs (Codes and Categories)
 
-To understand the content of the NFR discussions, we focused on analyzing the titles and descriptions in the PRs discussions. For that purpose, we randomly selected 160 PRs to perform a qualitative analysis. To make sure that we were evaluating all NFRs equally, we divided this analysis based on the total number of each NFR in our dataset. This analysis was performed on the PRs that we knew mentioned the NFRs in the title or description. Through the process of open coding, we generated 35 codes and nine categories that allowed us to understand the content of these titles and descriptions. The list of codes and categories are available at [`/artifacts/Open Coding NFRs.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Open%20Coding%20NFRs.pdf) 
+To understand the content of the NFR discussions, we focused on analyzing the titles and descriptions in the PRs discussions. For that purpose, we randomly selected 160 PRs to perform a qualitative analysis. To make sure that we were evaluating all NFRs equally, we divided this analysis based on the total number of each NFR in our dataset. This analysis was performed on the PRs that we knew mentioned the NFRs in the title or description. Through the process of open coding, we generated 35 codes and nine categories that allowed us to understand the content of these titles and descriptions. The list of codes and categories are available at [`/artifacts/Open Coding NFRs.pdf`](https://github.com/icse2024nfr/icse-2024-nfr/blob/main/artifacts/Open%20Coding%20NFRs.pdf) 
 
 We divided the file into pages to make the reading better. If accepted, we will make available the Miro link with the full board with the codes. The last page contains the whole coding.
 
@@ -116,7 +116,7 @@ For each metric we computed the quartiles and indicated whether the developer wa
   
 In this case, the developer had a high rate of reviews related to Robustness when compared to other developers in the same system. 
 
-The list with these metrics for all developers are available at [`/artifacts/metrics/`](https://github.com/saner23nfrdiscussions/saner23nfr/tree/main/artifacts/metrics) 
+The list with these metrics for all developers are available at [`/artifacts/metrics/`](https://github.com/icse2024nfr/icse-2024-nfr/tree/main/artifacts/metrics) 
 
 <hr>
 
@@ -132,20 +132,20 @@ To understand the developer's socio-technical profile, we clusterize them. Below
 
 # Open Coding Developers (Codes and Categories)
 
-We wanted to understand what makes the discuss NFRs. For that purpose, we analyzed other artifacts available (e.g., Github profile and Spring Team page) that could help us to understand what could make these developers be discussing specific NFRs. Our manual analysis through open coding generated 17 codes and 6 categories, which allow us to understand who are these developers. More details about these codes and categories are available at [`/artifacts/Open Coding Developers.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Open%20Coding%20Developers.pdf) 
+We wanted to understand what makes the discuss NFRs. For that purpose, we analyzed other artifacts available (e.g., Github profile and Spring Team page) that could help us to understand what could make these developers be discussing specific NFRs. Our manual analysis through open coding generated 17 codes and 6 categories, which allow us to understand who are these developers. More details about these codes and categories are available at [`/artifacts/Open Coding Developers.pdf`](https://github.com/icse2024nfr/icse-2024-nfr/blob/main/artifacts/Open%20Coding%20Developers.pdf) 
 
 <hr>
 
 # Identification Protocol and NFR Complementary Material
 
-The process of NFR identification by a single author can be posed as a threat. Although all authors are experienced with the NFRs explored in this study, we also provided complementary material with details about these NFRs to avoid misclassifications. This material is available at [`/artifacts/Protocol NFR Identification.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Protocol%20NFR%20Identification.pdf) 
+The process of NFR identification by a single author can be posed as a threat. Although all authors are experienced with the NFRs explored in this study, we also provided complementary material with details about these NFRs to avoid misclassifications. This material is available at [`/artifacts/Protocol NFR Identification.pdf`](https://github.com/icse2024nfr/icse-2024-nfr/blob/main/artifacts/Protocol%20NFR%20Identification.pdf) 
 
 <hr>
 
 # Dataset
 
 We provide a dataset with 1,383 PR discussions classified in terms of NFR presence. After manual classification, we built a dataset composed of PR
-discussions, each one classified in terms of (i) the presence of the NFRs type addressed, (ii) the location in the PR where the discussions are triggered, (iii) keywords mentioned in the discussion, and (iv) discussion content addressing the NFR. This classification allowed us to characterize the PR discussions and identify the developers discussing NFRs. The dataset is available at This material is available at [`/artifacts/dataset.csv`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/dataset.csv) 
+discussions, each one classified in terms of (i) the presence of the NFRs type addressed, (ii) the location in the PR where the discussions are triggered, (iii) keywords mentioned in the discussion, and (iv) discussion content addressing the NFR. This classification allowed us to characterize the PR discussions and identify the developers discussing NFRs. The dataset is available at This material is available at [`/artifacts/dataset.csv`](https://github.com/icse2024nfr/icse-2024-nfr/blob/main/artifacts/dataset.csv) 
 
 The .csv file is structured with the following columns
 - **NUMBER_PR**: The number from the PR analyzed
@@ -165,7 +165,6 @@ In our dataset, we have:
 
 # Keywords
 
-We provide a curated subset of common keywords related to NFRs derived from manual analysis. This content may help future investigations on the conceiving, training, and validation of NFRs classification technologies. The keywords are available at  [`/artifacts/Keywords.pdf`](https://github.com/saner23nfrdiscussions/saner23nfr/blob/main/artifacts/Keywords.pdf).
 
 The file contains the list of keywords for each NFR. We divided these keywords into two groups: (i) single keywords, and (ii) composed sentences keywords. The second group has combinations of keywords that can reinforce the presence of the NFR, due to its context. 
 
